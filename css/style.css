@@ -9,13 +9,14 @@ body {
 
 .container {
   width: 80%;
-  min-height: 50vh;
-  margin: 20px auto;
+  min-height: 100px;
+  margin: 60px auto;
 }
 
 h1 {
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 
 h3 {
@@ -36,6 +37,7 @@ header {
 h1.logo {
   color: #e3bc72;
   font-family: "Pattaya", sans-serif;
+  text-transform: none;
 }
 
 a.nav-link {
@@ -78,4 +80,25 @@ p.service {
   text-align: justify;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*Portfolio*/
+section.portfolio {
+  background-color: lightgrey;
+  margin: 20px auto;
+}
+
+img.card-img-top {
+  margin-top: 10px;
+}
+
+div.card-body {
+  text-align: center;
+}
+
+h5.card-title {
+  font-weight: bold;
+}
+
+p.card-page {
+  font-style: italic;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNDLHNCQUFzQjtBQ0Z2Qjs7QURLQTtFQUNFLHFCQUFxQjtFQUNyQixTQUFTO0FDRlg7O0FES0E7RUFDRSxVQUFVO0VBQ1YsaUJBQWlCO0VBQ2pCLGlCQUFpQjtBQ0ZuQjs7QURLQTtFQUNFLHlCQUF5QjtFQUN6QixrQkFBa0I7RUFDbEIsaUJBQWlCO0FDRm5COztBRElBO0VBQ0Usa0JBQWtCO0FDRHBCOztBREdBLHNCQUFBO0FBQ0E7RUFDRSx5QkFBeUI7RUFDekIsbUJBQW1CO0VBQ25CLFlBQVk7QUNBZDs7QURJQTtFQUNFLGtDQWxDaUM7QUNpQ25DOztBRElBO0VBQ0UsY0FyQ1k7RUFzQ1osa0NBdkNpQztFQXdDakMsb0JBQW9CO0FDRHRCOztBRElBO0VBQ0UsWUFBWTtFQUNaLHlCQUF5QjtBQ0QzQjs7QURJQTtFQUNFLFVBQVU7RUFDVixpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQ0RwQjs7QURJQTtFQUNFLHlCQXZEWTtBQ3NEZDs7QURHQTtFQUNFLFlBQVk7RUFDWixtQkFBbUI7QUNBckI7O0FESUEsVUFBQTtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLFlBQVk7QUNEZDs7QURJQTtFQUNFLGtCQUFrQjtFQUNsQixZQUFZO0FDRGQ7O0FER0E7RUFDRSxZQUFZO0FDQWQ7O0FERUE7RUFDRSxtQkFBbUI7QUNDckI7O0FER0EsWUFBQTtBQUNBO0VBQ0UsMkJBQTJCO0VBQzNCLGlCQUFpQjtBQ0FuQjs7QURHQTtFQUNFLGdCQUFnQjtBQ0FsQjs7QURFQTtFQUNFLGtCQUFrQjtBQ0NwQjs7QURDQTtFQUNFLGlCQUFpQjtBQ0VuQjs7QURBQTtFQUNFLGtCQUFrQjtBQ0dwQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

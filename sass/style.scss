@@ -12,13 +12,14 @@ body {
 
 .container {
   width: 80%;
-  min-height: 250px;
-  margin: 40px auto;
+  min-height: 100px;
+  margin: 60px auto;
 }
 
 h1 {
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 h3 {
   font-style: italic;
@@ -30,9 +31,7 @@ header {
   color: white;
 }
 
-h1.logo {
-  text-transform: none;
-}
+
 .nav-brand {
   font-family: $font-header;
 }
@@ -40,6 +39,7 @@ h1.logo {
 h1.logo {
   color: $gold;
   font-family: $font-header;
+  text-transform: none;
 }
 
 a.nav-link {
@@ -78,4 +78,24 @@ i, h3.service, p.service {
 }
 p.service {
   text-align: justify;
+}
+
+
+/*Portfolio*/
+section.portfolio {
+  background-color: lightgrey;
+  margin: 20px auto;
+}
+
+img.card-img-top {
+  margin-top: 10px;
+}
+div.card-body {
+  text-align: center;
+}
+h5.card-title {
+  font-weight: bold;
+}
+p.card-page {
+  font-style: italic;
 }
