@@ -6,16 +6,28 @@ $gold: #e3bc72;
 }
 
 body {
-  color: white;
   font-family: 'Roboto';
   margin: 0;
 }
 
+.container {
+  width: 80%;
+  min-height: 50vh;
+  border: 1px solid red;
+}
 
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+h3 {
+  font-style: italic;
+}
 /*header & nabigation*/
 header {
   background-color: #5d523d;
   margin-bottom: 15px;
+  color: white;
 }
 
 .nav-brand {
@@ -36,14 +48,28 @@ div.hero {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
-h1.hero {
-  text-transform: uppercase;
-}
+
 .btn {
   background-color: $gold;
 }
 a.btn {
   color: white;
   margin-bottom: 20px;
+}
+
+
+/*Service*/
+.page-title {
+  text-align: center;
+  margin: 20px;
+}
+
+.service-box {
+  text-align: center;
+  margin: 10px;
+}
+i, h3.service, p {
+  margin: 10px;
 }
