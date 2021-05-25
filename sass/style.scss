@@ -12,8 +12,8 @@ body {
 
 .container {
   width: 80%;
-  min-height: 50vh;
-  border: 1px solid red;
+  min-height: 250px;
+  margin: 40px auto;
 }
 
 h1 {
@@ -30,6 +30,9 @@ header {
   color: white;
 }
 
+h1.logo {
+  text-transform: none;
+}
 .nav-brand {
   font-family: $font-header;
 }
@@ -70,6 +73,9 @@ a.btn {
   text-align: center;
   margin: 10px;
 }
-i, h3.service, p {
+i, h3.service, p.service {
   margin: 10px;
+}
+p.service {
+  text-align: justify;
 }
