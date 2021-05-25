@@ -1,10 +1,49 @@
-/*Global*/
-$font-header: 'Pattaya', sans-serif;
 
-body {
-  background-color: black;
+$font-header: 'Pattaya', sans-serif;
+$gold: #e3bc72;
+*, ::after, ::before {
+ box-sizing: border-box;
 }
 
-.logo {
+body {
+  color: white;
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+
+/*header & nabigation*/
+header {
+  background-color: #5d523d;
+  margin-bottom: 15px;
+}
+
+.nav-brand {
   font-family: $font-header;
+}
+
+h1.logo {
+  color: $gold;
+  font-family: $font-header;
+}
+
+a.nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+
+div.hero {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1.hero {
+  text-transform: uppercase;
+}
+.btn {
+  background-color: $gold;
+}
+a.btn {
+  color: white;
+  margin-bottom: 20px;
 }
