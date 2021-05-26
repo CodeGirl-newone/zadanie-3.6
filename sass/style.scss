@@ -12,8 +12,7 @@ body {
 
 .container {
   width: 80%;
-  min-height: 100px;
-  margin: 60px auto;
+  margin: 10px auto;
 }
 
 h1 {
@@ -79,7 +78,17 @@ i, h3.service, p.service {
 p.service {
   text-align: justify;
 }
-
+.service-box i.fas{
+  color: $gold;
+  border: 4px solid $gold;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+}
 
 /*Portfolio*/
 section.portfolio {
@@ -100,4 +109,19 @@ h5.card-title {
 }
 p.card-page {
   font-style: italic;
+}
+
+
+/*Footer*/
+i.fab {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 2px;
 }
